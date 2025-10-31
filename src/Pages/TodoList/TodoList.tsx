@@ -1,7 +1,5 @@
-import React, { useState } from "react";
-import { ItemTypes } from "../../Types/item.types";
+import React from "react";
 import { useModal } from "../../Store/modules/modalSlice";
-import { useAppSelector } from "../../Hooks/useStore";
 import { useTodo } from "../../Store/modules/todoSlice";
 import { List } from "../../Components/TodoList/List/List";
 
